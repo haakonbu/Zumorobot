@@ -1,4 +1,4 @@
-package zumofxml;
+package zumoRobot;
 
 public class ZumoController {
 	
