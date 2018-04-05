@@ -4,11 +4,14 @@
 #include <ZumoMotors.h>
 #include <PLab_ZumoMotors.h>
 
-const int btUnitTxPin = 2; // Connected to tx on bt unit
-const int btUnitRxPin = 6; // Connected to rx on bt unit
+const int btUnitTxPin = 1; // Connected to tx on bt unit
+const int btUnitRxPin = 0; // Connected to rx on bt unit
 PLabBTSerial btSerial(btUnitTxPin, btUnitRxPin);
 // ZumoMotors motors;
 PLab_ZumoMotors PLab_motors;
+
+//char BTName[] = "T22";
+
 
 void setup(void)
 { 
